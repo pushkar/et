@@ -1342,8 +1342,6 @@
 (expense (payer post) (value 27.71) (splits pushkar jon shauvik)) ;; water
 (expense (payer post) (value 69.48) (splits pushkar jon shauvik)) ;; sewer
 (payment (from jon) (to post) (value 1624.19))
-;(payment (from shauvik) (to jon) (value 642.20))
-;(payment (from pushkar) (to jon) (value 540.36))
 
 ;; 12/16/11 gapower electric bill
 (expense (payer jon) (value 68.67) (splits jon pushkar shauvik))
@@ -1352,7 +1350,7 @@
 ;; 12/13/11 renter insurance
 (expense (payer jon) (value 19.83) (splits jon pushkar shauvik))
 ;; 1/4/12 comcast
-;(expense (payer jon) (value 42.55) (splits jon pushkar shauvik))
+(expense (payer jon) (value 42.55) (splits jon pushkar shauvik))
 
 (payment (from pushkar) (to jon) (value 1080.19))
 ;; Jan 2011 Rent
@@ -1362,3 +1360,12 @@
 (expense (payer post) (value 28.25) (splits pushkar jon shauvik)) ;; water
 (expense (payer post) (value 68.45) (splits pushkar jon shauvik)) ;; sewer
 (payment (from jon) (to post) (value 1623.70))
+
+;; 1/16/12 gapower electric bill
+(expense (payer jon) (value 97.98) (splits jon pushkar shauvik))
+;; 1/16/12 infinite energy gas bill
+(expense (payer jon) (value 143.33) (splits jon pushkar shauvik))
+;; 1/13/12 renter insurance
+(expense (payer jon) (value 19.83) (splits jon pushkar shauvik))
+;; 2/4/12 comcast
+(expense (payer jon) (value 42.55) (splits jon pushkar shauvik))
