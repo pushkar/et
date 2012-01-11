@@ -1354,12 +1354,11 @@
 ;; 1/4/12 comcast
 ;(expense (payer jon) (value 42.55) (splits jon pushkar shauvik))
 
+(payment (from pushkar) (to jon) (value 1080.19))
 ;; Jan 2011 Rent
 (expense (payer post) (value 1520) (splits (pushkar .30) (jon .333) (shauvik .367)))
 (expense (payer post) (value 3) (splits pushkar jon shauvik)) ;; trash
 (expense (payer post) (value 4) (splits pushkar jon shauvik)) ;; admin
-;(expense (payer post) (value ??.??) (splits pushkar jon shauvik)) ;; water
-;(expense (payer post) (value ??.??) (splits pushkar jon shauvik)) ;; sewer
-;(payment (from jon) (to post) (value 1624.19))
-;(payment (from shauvik) (to jon) (value 642.20))
-;(payment (from pushkar) (to jon) (value 540.36))
+(expense (payer post) (value 28.25) (splits pushkar jon shauvik)) ;; water
+(expense (payer post) (value 68.45) (splits pushkar jon shauvik)) ;; sewer
+(payment (from jon) (to post) (value 1623.70))
