@@ -1378,3 +1378,6 @@
 (expense (payer post) (value 31.61) (splits pushkar jon shauvik)) ;; water
 (expense (payer post) (value 76.60) (splits pushkar jon shauvik)) ;; sewer
 (payment (from jon) (to post) (value 1635.21))
+
+;; 40 Euros
+(payment (from pushkar) (to jon) (value 52.62))
