@@ -1452,3 +1452,4 @@
 
 ;; 5/1/12
 (payment (from pushkar) (to post) (value 1769.48))
+(payment (from jon) (to pushkar) (value 650.00))
