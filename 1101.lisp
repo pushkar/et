@@ -1473,3 +1473,14 @@
 ;; 6/1/12
 (payment (from jon) (to pushkar) (value 650.00))
 (payment (from pushkar) (to post) (value 1738.04))
+
+;; 6/10/12 gapower electric bill
+(expense (payer jon) (value 122.58) (splits jon pushkar shauvik))
+;; 6/10/12 infinite energy gas bill
+(expense (payer jon) (value 44.10) (splits jon pushkar shauvik))
+;; 6/10/12 renter insurance
+(expense (payer jon) (value 19.83) (splits jon pushkar shauvik))
+;; 6/10/12 comcast
+(expense (payer jon) (value 42.55) (splits jon pushkar shauvik))
+
+
