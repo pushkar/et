@@ -1504,3 +1504,6 @@
 
 (payment (from jon) (to pushkar) (value 650.00))
 (payment (from pushkar) (to post) (value  1747.57))
+
+(payment (from shauvik) (to pushkar) (value 370.86))
+(payment (from shauvik) (to jon) (value 243.19))
