@@ -1525,5 +1525,5 @@
 (expense (payer post) (value 75.12) (splits pushkar jon shauvik)) ;; sewer
 
 (payment (from jon) (to pushkar) (value 650.00))
-;(payment (from shauvik) (to post) (value  1738.72))
+(payment (from shauvik) (to post) (value  1738.72))
 
