@@ -1461,7 +1461,7 @@
 ;; 5/10/12 renter insurance
 (expense (payer jon) (value 19.83) (splits jon pushkar shauvik))
 ;; 5/10/12 comcast
-(expense (payer jon) (value 42.55) (splits jon pushkar shauvik))
+(expense (payer jon) (value 15.68) (splits jon pushkar shauvik))
 
 ;; June 2012 Rent
 (expense (payer post) (value 1625) (splits (pushkar .30) (jon .333) (shauvik .367)))
@@ -1481,7 +1481,7 @@
 ;; 6/10/12 renter insurance
 (expense (payer jon) (value 19.83) (splits jon pushkar shauvik))
 ;; 6/10/12 comcast
-(expense (payer jon) (value 42.55) (splits jon pushkar shauvik))
+(expense (payer jon) (value 70.51) (splits jon pushkar shauvik))
 
 ;; 6/1/12
 (payment (from shauvik) (to pushkar) (value 947.80))
@@ -1515,7 +1515,7 @@
 ;; 7/10/12 renter insurance
 (expense (payer jon) (value 19.83) (splits jon pushkar shauvik))
 ;; 7/10/12 comcast
-(expense (payer jon) (value 42.55) (splits jon pushkar shauvik))
+(expense (payer jon) (value 70.51) (splits jon pushkar shauvik))
 
 ;; August 2012 Rent
 (expense (payer post) (value 1625) (splits (pushkar .30) (jon .333) (shauvik .367)))
@@ -1535,7 +1535,7 @@
 ;; 8/11/12 renter insurance
 (expense (payer jon) (value 19.83) (splits jon pushkar shauvik))
 ;; 8/11/12 comcast
-(expense (payer jon) (value 42.55) (splits jon pushkar shauvik))
+(expense (payer jon) (value 70.51) (splits jon pushkar shauvik))
 
 ;; September 2012 Rent
 (expense (payer post) (value 1625) (splits (pushkar .30) (jon .333) (shauvik .367)))
@@ -1546,3 +1546,13 @@
 
 (payment (from jon) (to pushkar) (value 650.00))
 (payment (from pushkar) (to post) (value  1724.20))
+
+;; 9/11/12 gapower electric bill
+(expense (payer jon) (value 183.59) (splits jon pushkar shauvik))
+;; 9/11/12 infinite energy gas bill
+(expense (payer jon) (value 41.59) (splits jon pushkar shauvik))
+;; 9/11/12 renter insurance
+(expense (payer jon) (value 19.83) (splits jon pushkar shauvik))
+;; 9/11/12 comcast
+(expense (payer jon) (value 70.51) (splits jon pushkar shauvik))
+
