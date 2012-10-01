@@ -1556,3 +1556,18 @@
 ;; 9/11/12 comcast
 (expense (payer jon) (value 70.51) (splits jon pushkar shauvik))
 
+
+;;Pushkar's Macbook
+(payment (from shauvik) (value 1186.92) (to pushkar))
+;;Netflix subscription (July-Sep = 7.99*3)
+(expense (payer shauvik) (value 23.97) (splits pushkar shauvik))
+
+
+;; October 2012 Rent
+
+
+
+
+
+
+
