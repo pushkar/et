@@ -1556,7 +1556,7 @@
 ;; 9/11/12 comcast
 (expense (payer jon) (value 70.51) (splits jon pushkar shauvik))
 
-;; August 2012 Rent
+;; October2012 Rent
 (expense (payer post) (value 1625) (splits (pushkar .30) (jon .333) (shauvik .367)))
 (expense (payer post) (value 3.5) (splits pushkar jon shauvik)) ;; trash
 (expense (payer post) (value 4) (splits pushkar jon shauvik)) ;; admin
@@ -1565,4 +1565,7 @@
 
 (payment (from jon) (to post) (value  1754.54))
 
-
+;;Pushkar's Macbook
+(payment (from shauvik) (value 1186.92) (to pushkar))
+;;Netflix subscription (July-Sep = 7.99*3)
+(expense (payer shauvik) (value 23.97) (splits pushkar shauvik))
