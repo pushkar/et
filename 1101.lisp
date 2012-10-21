@@ -1569,3 +1569,14 @@
 (payment (from shauvik) (value 1186.92) (to pushkar))
 ;;Netflix subscription (July-Sep = 7.99*3)
 (expense (payer shauvik) (value 23.97) (splits pushkar shauvik))
+
+;; 10/17/12 gapower electric bill
+(expense (payer jon) (value 120.05) (splits jon pushkar shauvik))
+;; 10/17/12 infinite energy gas bill
+(expense (payer jon) (value 39.66) (splits jon pushkar shauvik))
+;; 10/11/12 renter insurance
+(expense (payer jon) (value 19.83) (splits jon pushkar shauvik))
+;; 10/06/12 comcast
+(expense (payer jon) (value 70.51) (splits jon pushkar shauvik))
+
+
