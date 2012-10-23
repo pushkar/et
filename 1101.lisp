@@ -1580,3 +1580,5 @@
 (expense (payer jon) (value 70.51) (splits jon pushkar shauvik))
 
 
+;; Money transfer to shauvik Oct 21-23
+(payment (from pushkar) (value 2000.00) (to shauvik))
