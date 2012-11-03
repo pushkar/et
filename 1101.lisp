@@ -1582,3 +1582,16 @@
 
 ;; Money transfer to shauvik Oct 21-23
 (payment (from pushkar) (value 2000.00) (to shauvik))
+
+;; Money transfer from Leandro to shauvik
+(payment (from pushkar) (value 400.00) (to shauvik))
+
+;; Nov 2012 Rent
+(expense (payer post) (value 1625) (splits (pushkar .30) (jon .333) (shauvik .367)))
+(expense (payer post) (value 3.5) (splits pushkar jon shauvik)) ;; trash
+(expense (payer post) (value 4) (splits pushkar jon shauvik)) ;; admin
+(expense (payer post) (value 91.3) (splits pushkar jon shauvik)) ;; water + sewer
+
+(payment (from shauvik) (to post) (value 1723.80))
+
+
