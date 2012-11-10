@@ -1579,7 +1579,6 @@
 ;; 10/06/12 comcast
 (expense (payer jon) (value 70.51) (splits jon pushkar shauvik))
 
-
 ;; Money transfer to shauvik Oct 21-23
 (payment (from pushkar) (value 2000.00) (to shauvik))
 
@@ -1593,5 +1592,14 @@
 (expense (payer post) (value 91.3) (splits pushkar jon shauvik)) ;; water + sewer
 
 (payment (from shauvik) (to post) (value 1723.80))
+(payment (from pushkar) (to jon) (value 896.47))
 
+;; 11/17/12 gapower electric bill
+(expense (payer jon) (value 51.25) (splits jon pushkar shauvik))
+;; 11/17/12 infinite energy gas bill
+(expense (payer jon) (value 57.30) (splits jon pushkar shauvik))
+;; 11/11/12 renter insurance
+(expense (payer jon) (value 19.83) (splits jon pushkar shauvik))
+;; 11/06/12 comcast
+(expense (payer jon) (value 39.99) (splits jon pushkar shauvik))
 
