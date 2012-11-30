@@ -1612,4 +1612,11 @@
 (payment (from shauvik) (to jon) (value 1600.00))
 (payment (from jon) (to post) (value 1759.13))
 
+;; Nov 3 Paypal to Jon
+(payment (from pushkar) (to jon) (value 896.47)) 
+
+;; Check written to Jon by Shauvik
+(payment (from shauvik) (value 1600) (to jon))
+
+
 
