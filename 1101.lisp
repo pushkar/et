@@ -1620,3 +1620,15 @@
 (expense (payer jon) (value 19.83) (splits jon pushkar shauvik))
 ;; 12/06/12 comcast
 (expense (payer jon) (value 39.99) (splits jon pushkar shauvik))
+
+;; 12/03/12 paypal transfer
+(payment (from pushkar) (to jon) (value 381.38))
+
+;; Jan 2013 Rent
+(expense (payer post) (value 1625) (splits (pushkar .30) (jon .333) (shauvik .367)))
+(expense (payer post) (value 3.5) (splits pushkar jon shauvik)) ;; trash
+(expense (payer post) (value 4) (splits pushkar jon shauvik)) ;; admin
+(expense (payer post) (value 17.33) (splits pushkar jon shauvik)) ;; water
+(expense (payer post) (value 39.79) (splits pushkar jon shauvik)) ;; sewer
+
+(payment (from pushkar) (to post) (value 1689.62))
