@@ -1632,3 +1632,14 @@
 (expense (payer post) (value 39.79) (splits pushkar jon shauvik)) ;; sewer
 
 (payment (from pushkar) (to post) (value 1689.62))
+
+;; 1/13/13 gapower electric bill
+(expense (payer jon) (value 62.70) (splits jon pushkar shauvik))
+;; 1/13/13 infinite energy gas bill
+(expense (payer jon) (value 144.96) (splits jon pushkar shauvik))
+;; 1/13/13 renter insurance
+(expense (payer jon) (value 19.83) (splits jon pushkar shauvik))
+;; 1/02/13 comcast
+(expense (payer jon) (value 39.99) (splits jon pushkar shauvik))
+
+
