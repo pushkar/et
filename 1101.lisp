@@ -1642,4 +1642,5 @@
 ;; 1/02/13 comcast
 (expense (payer jon) (value 39.99) (splits jon pushkar shauvik))
 
-
+;; 1/15/2013 bank of america transfer
+(payment (from shauvik) (to pushkar) (value 500))
