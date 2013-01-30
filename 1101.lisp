@@ -1644,3 +1644,12 @@
 
 ;; 1/15/2013 bank of america transfer
 (payment (from shauvik) (to pushkar) (value 500))
+
+;; Feb 2013 Rent
+(expense (payer post) (value 1625) (splits (pushkar .30) (jon .333) (shauvik .367)))
+(expense (payer post) (value 3.5) (splits pushkar jon shauvik)) ;; trash
+(expense (payer post) (value 4) (splits pushkar jon shauvik)) ;; admin
+(expense (payer post) (value 33.16) (splits pushkar jon shauvik)) ;; water
+(expense (payer post) (value 74.24) (splits pushkar jon shauvik)) ;; sewer
+
+(payment (from jon) (to post) (value 1739.90))
