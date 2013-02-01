@@ -1653,3 +1653,13 @@
 (expense (payer post) (value 74.24) (splits pushkar jon shauvik)) ;; sewer
 
 (payment (from jon) (to post) (value 1739.90))
+
+;; 1/26/2013 pushkar owes shauvik (natesh-usb $8; ski trip $6)
+(payment (from shauvik) (to pushkar) (value 14))
+;; oct-jan netflix
+(expense (payer shauvik) (value 31.96) (splits pushkar jon shauvik))
+
+;; 1/31/2013 paypal transfer
+(payment (from shauvik) (to jon) (value 683.60))
+
+
