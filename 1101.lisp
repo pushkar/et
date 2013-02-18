@@ -1662,4 +1662,13 @@
 ;; 1/31/2013 paypal transfer
 (payment (from shauvik) (to jon) (value 683.60))
 
+;; 2/13/13 gapower electric bill
+(expense (payer jon) (value 74.56) (splits jon pushkar shauvik))
+;; 2/13/13 infinite energy gas bill
+(expense (payer jon) (value 116.71) (splits jon pushkar shauvik))
+;; 2/13/13 renter insurance
+(expense (payer jon) (value 19.83) (splits jon pushkar shauvik))
+;; 2/02/13 comcast
+(expense (payer jon) (value 39.99) (splits jon pushkar shauvik))
+
 
