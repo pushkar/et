@@ -1662,4 +1662,11 @@
 ;; 1/31/2013 paypal transfer
 (payment (from shauvik) (to jon) (value 683.60))
 
+;; Mar 2013 Rent
+(expense (payer post) (value 1625) (splits (pushkar .30) (jon .333) (shauvik .367)))
+(expense (payer post) (value 3.5) (splits pushkar jon shauvik)) ;; trash
+(expense (payer post) (value 4) (splits pushkar jon shauvik)) ;; admin
+(expense (payer post) (value 37.22) (splits pushkar jon shauvik)) ;; water
+(expense (payer post) (value 86.04) (splits pushkar jon shauvik)) ;; sewer
 
+(payment (from pushkar) (to post) (value 1755.76))
