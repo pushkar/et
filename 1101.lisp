@@ -1671,4 +1671,22 @@
 ;; 2/02/13 comcast
 (expense (payer jon) (value 39.99) (splits jon pushkar shauvik))
 
+;; Mar 2013 Rent
+(expense (payer post) (value 1625) (splits (pushkar .30) (jon .333) (shauvik .367)))
+(expense (payer post) (value 3.5) (splits pushkar jon shauvik)) ;; trash
+(expense (payer post) (value 4) (splits pushkar jon shauvik)) ;; admin
+(expense (payer post) (value 37.22) (splits pushkar jon shauvik)) ;; water
+(expense (payer post) (value 86.04) (splits pushkar jon shauvik)) ;; sewer
+
+(payment (from pushkar) (to post) (value 1755.76))
+
+;; 3/13/13 gapower electric bill
+(expense (payer jon) (value 66.00) (splits jon pushkar shauvik))
+;; 2/13/13 infinite energy gas bill
+(expense (payer jon) (value 215.75) (splits jon pushkar shauvik))
+;; 2/13/13 renter insurance
+(expense (payer jon) (value 19.83) (splits jon pushkar shauvik))
+;; 2/02/13 comcast
+(expense (payer jon) (value 39.99) (splits jon pushkar shauvik))
+
 
