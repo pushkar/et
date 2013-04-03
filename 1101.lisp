@@ -1690,9 +1690,12 @@
 (expense (payer jon) (value 39.99) (splits jon pushkar shauvik))
 
 
-;; April 2013 Rent (estimated)
-(expense (payer post) (value 1516.67) (splits (pushkar .30) (jon .333) (shauvik .367)))
+;; April 2013 Rent (confirmed)
+(expense (payer post) (value 1645.78) (splits (pushkar .30) (jon .333) (shauvik .367)))
 (expense (payer post) (value 3.5) (splits pushkar jon shauvik)) ;; trash
 (expense (payer post) (value 4) (splits pushkar jon shauvik)) ;; admin
 (expense (payer post) (value 31.44) (splits pushkar jon shauvik)) ;; water
 (expense (payer post) (value 71.64) (splits pushkar jon shauvik)) ;; sewer
+
+(payment (from shauvik) (to post) (value 1756.36))
+
