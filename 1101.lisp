@@ -1699,3 +1699,5 @@
 
 (payment (from shauvik) (to post) (value 1756.36))
 
+;; helmet for shauvik that PK and I lost
+(expense (payer shauvik) (value 20.00) (splits jon pushkar))
