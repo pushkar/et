@@ -1701,3 +1701,13 @@
 
 ;; helmet for shauvik that PK and I lost
 (expense (payer shauvik) (value 20.00) (splits jon pushkar))
+
+;; 4/15/13 gapower electric bill
+(expense (payer jon) (value 59.65) (splits jon pushkar shauvik))
+;; 4/15/13 infinite energy gas bill
+(expense (payer jon) (value 0.00) (splits jon pushkar shauvik))
+;; 4/13/13 renter insurance
+(expense (payer jon) (value 19.83) (splits jon pushkar shauvik))
+;; 4/02/13 comcast
+(expense (payer jon) (value 39.99) (splits jon pushkar shauvik))
+
