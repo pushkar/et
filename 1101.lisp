@@ -1705,7 +1705,7 @@
 ;; 4/15/13 gapower electric bill
 (expense (payer jon) (value 59.65) (splits jon pushkar shauvik))
 ;; 4/15/13 infinite energy gas bill
-(expense (payer jon) (value 0.00) (splits jon pushkar shauvik))
+(expense (payer jon) (value 155.55) (splits jon pushkar shauvik))
 ;; 4/13/13 renter insurance
 (expense (payer jon) (value 19.83) (splits jon pushkar shauvik))
 ;; 4/02/13 comcast
