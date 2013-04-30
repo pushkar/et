@@ -1711,3 +1711,13 @@
 ;; 4/02/13 comcast
 (expense (payer jon) (value 39.99) (splits jon pushkar shauvik))
 
+;; items for home (tide bulbs - 18, detergent - palmolive 4, cascade-9)
+(expense (payer shauvik) (value 31) (splits jon pushkar shauvik))
+
+;; Imax movie tix - oblivion
+(payment (from shauvik) (value 18) (to pushkar))
+
+;; Netflix Feb-Apr
+(expense (payer shauvik) (value 23.97) (splits jon pushkar shauvik))
+
+
