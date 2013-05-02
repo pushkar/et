@@ -1715,9 +1715,17 @@
 (expense (payer shauvik) (value 31) (splits jon pushkar shauvik))
 
 ;; Imax movie tix - oblivion
+;; What!!! 18 bucks really?
 (payment (from shauvik) (value 18) (to pushkar))
 
 ;; Netflix Feb-Apr
 (expense (payer shauvik) (value 23.97) (splits jon pushkar shauvik))
 
+;; May 2013 Rent
+(expense (payer post) (value 1625) (splits (pushkar .30) (jon .333) (shauvik .367)))
+(expense (payer post) (value 3.5) (splits pushkar jon shauvik)) ;; trash
+(expense (payer post) (value 4) (splits pushkar jon shauvik)) ;; admin
+(expense (payer post) (value 41.92) (splits pushkar jon shauvik)) ;; water
+(expense (payer post) (value 95.52) (splits pushkar jon shauvik)) ;; sewer
 
+(payment (from jon) (to post) (value 1769.94))
