@@ -1729,3 +1729,17 @@
 (expense (payer post) (value 95.52) (splits pushkar jon shauvik)) ;; sewer
 
 (payment (from jon) (to post) (value 1769.94))
+
+;; items for home (paper towels and toilet paper)
+(expense (payer jon) (value 13) (splits jon pushkar shauvik))
+
+;; 5/15/13 gapower electric bill
+(expense (payer jon) (value 45.63) (splits jon pushkar shauvik))
+;; 5/15/13 infinite energy gas bill
+(expense (payer jon) (value 94.45) (splits jon pushkar shauvik))
+;; 5/13/13 renter insurance
+(expense (payer jon) (value 19.83) (splits jon pushkar shauvik))
+;; 5/02/13 comcast
+(expense (payer jon) (value 39.99) (splits jon pushkar shauvik))
+
+
