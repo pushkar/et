@@ -1760,4 +1760,16 @@
 ;; 6/02/13 comcast
 (expense (payer jon) (value 39.99) (splits jon pushkar shauvik))
 
+;; fedex
+
+(payment (from pushkar) (to shauvik) (value 67.04))
+
+;; July 2013 Rent
+(expense (payer post) (value 1625) (splits (pushkar .30) (jon .333) (shauvik .367)))
+(expense (payer post) (value 3.5) (splits pushkar jon shauvik)) ;; trash
+(expense (payer post) (value 4) (splits pushkar jon shauvik)) ;; admin
+(expense (payer post) (value 27.96) (splits pushkar jon shauvik)) ;; water
+(expense (payer post) (value 65.29) (splits pushkar jon shauvik)) ;; sewer
+
+(payment (from pushkar) (to post) (value 1725.75))
 
