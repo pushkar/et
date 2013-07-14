@@ -1773,3 +1773,7 @@
 
 (payment (from pushkar) (to post) (value 1725.75))
 
+;; bankam  (Amount, Transfer Date, Confirmation Number => $1,000.00 07/12/2013 1d1ef3ipr)
+(payment (from shauvik) (to pushkar) (value 1000))
+
+
