@@ -1776,4 +1776,11 @@
 ;; bankam  (Amount, Transfer Date, Confirmation Number => $1,000.00 07/12/2013 1d1ef3ipr)
 (payment (from shauvik) (to pushkar) (value 1000))
 
+;; 7/25/13 gapower electric bill - switched to shauvik so has extra
+(expense (payer jon) (value 220.30) (splits jon pushkar shauvik))
+;; 6/13/13 renter insurance
+(expense (payer jon) (value 19.83) (splits jon pushkar shauvik))
+;; 7/02/13 comcast
+(expense (payer jon) (value 39.99) (splits jon pushkar shauvik))
+
 
