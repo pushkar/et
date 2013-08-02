@@ -1783,4 +1783,15 @@
 ;; 7/02/13 comcast
 (expense (payer jon) (value 39.99) (splits jon pushkar shauvik))
 
+;; amazon web payment trial
+(payment (from pushkar) (to jon) (value 10.00))
+
+;; August 2013 Rent
+(expense (payer post) (value 1625) (splits (pushkar .30) (jon .333) (shauvik .367)))
+(expense (payer post) (value 3.5) (splits pushkar jon shauvik)) ;; trash
+(expense (payer post) (value 4) (splits pushkar jon shauvik)) ;; admin
+(expense (payer post) (value 32.37) (splits pushkar jon shauvik)) ;; water
+(expense (payer post) (value 73.53) (splits pushkar jon shauvik)) ;; sewer
+
+(payment (from shauvik) (to post) (value 1738.40))
 
