@@ -1792,6 +1792,7 @@
 (expense (payer post) (value 4) (splits pushkar jon shauvik)) ;; admin
 (expense (payer post) (value 32.37) (splits pushkar jon shauvik)) ;; water
 (expense (payer post) (value 73.53) (splits pushkar jon shauvik)) ;; sewer
+(expense (payer post) (value 13.23) (splits pushkar jon shauvik)) ;; vacant gas between transfer
 
-(payment (from shauvik) (to post) (value 1738.40))
+(payment (from shauvik) (to post) (value 1751.63))
 
