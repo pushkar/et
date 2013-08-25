@@ -1,4 +1,4 @@
-(people arya jon jeremy post pushkar peng karthik shauvik)
+(people arya jon jeremy post pushkar peng karthik shauvik said)
 
 ;; our rent
 ;; $422 + $468 + $515 = $1405
@@ -1787,7 +1787,7 @@
 (payment (from pushkar) (to jon) (value 10.00))
 
 ;; August 2013 Rent
-(expense (payer post) (value 1625) (splits (pushkar .30) (jon .333) (shauvik .367)))
+(expense (payer post) (value 1625) (splits (pushkar 485) (jon 160) (shauvik 590)(said 390)))
 (expense (payer post) (value 3.5) (splits pushkar jon shauvik)) ;; trash
 (expense (payer post) (value 4) (splits pushkar jon shauvik)) ;; admin
 (expense (payer post) (value 32.37) (splits pushkar jon shauvik)) ;; water
@@ -1795,4 +1795,7 @@
 (expense (payer post) (value 13.23) (splits pushkar jon shauvik)) ;; vacant gas between transfer
 
 (payment (from shauvik) (to post) (value 1751.63))
+
+(payment (from said) (to shauvik) (value 550))
+
 
