@@ -1805,9 +1805,9 @@
 
 ;; September 2013 Rent
 (expense (payer post) (value 1625) (splits (pushkar 485) (shauvik 590) (said 550)))
-(expense (payer post) (value 3.5) (splits pushkar said shauvik)) ;; trash
-(expense (payer post) (value 4) (splits pushkar said shauvik)) ;; admin
-(expense (payer post) (value 103.27) (splits pushkar said shauvik)) ;; waterbilling
+(expense (payer post) (value 3.5) (splits pushkar said shauvik jon)) ;; trash
+(expense (payer post) (value 4) (splits pushkar said shauvik jon)) ;; admin
+(expense (payer post) (value 103.27) (splits pushkar said shauvik jon)) ;; waterbilling
 
 (payment (from shauvik) (to post) (value 1735.77))
 (payment (from said) (to shauvik) (value 550))
