@@ -1787,7 +1787,7 @@
 (payment (from pushkar) (to jon) (value 10.00))
 
 ;; August 2013 Rent
-(expense (payer post) (value 1625) (splits (pushkar 485) (jon 160) (shauvik 590)(said 390)))
+(expense (payer post) (value 1625) (splits (pushkar 485) (jon 160) (shauvik 590) (said 390)))
 (expense (payer post) (value 3.5) (splits pushkar jon shauvik)) ;; trash
 (expense (payer post) (value 4) (splits pushkar jon shauvik)) ;; admin
 (expense (payer post) (value 32.37) (splits pushkar jon shauvik)) ;; water
@@ -1796,6 +1796,20 @@
 
 (payment (from shauvik) (to post) (value 1751.63))
 
+(payment (from said) (to shauvik) (value 550))
+
+;; Jon's stay for August
+(payment (from shauvik) (to jon) (value 50))
+(payment (from said) (to jon) (value 50))
+(payment (from pushkar) (to jon) (value 50))
+
+;; September 2013 Rent
+(expense (payer post) (value 1625) (splits (pushkar 485) (shauvik 590) (said 550)))
+(expense (payer post) (value 3.5) (splits pushkar said shauvik)) ;; trash
+(expense (payer post) (value 4) (splits pushkar said shauvik)) ;; admin
+(expense (payer post) (value 103.27) (splits pushkar said shauvik)) ;; waterbilling
+
+(payment (from shauvik) (to post) (value 1735.77))
 (payment (from said) (to shauvik) (value 550))
 
 
