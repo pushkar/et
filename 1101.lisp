@@ -1812,4 +1812,8 @@
 (payment (from shauvik) (to post) (value 1735.77))
 (payment (from said) (to shauvik) (value 550))
 
+;; Said bought Jon's furniture
+(payment (from jon) (to said) (value 130))
 
+;; Renter's insurance
+(expense (payer shauvik) (value 137.0) (splits shauvik said pushkar))
