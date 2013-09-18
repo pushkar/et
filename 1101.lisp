@@ -1821,5 +1821,4 @@
 ;; 8/02/13 comcast (jon's last one; increase b/c promo was over)
 (expense (payer jon) (value 74.95) (splits jon pushkar shauvik))
 ;; adjustments for utils
-(expense (payer jon) (splits pushkar shauvik) (value 30)) ; august adjusted utils
-(expense (payer jon) (splits pushkar shauvik said) (value 27)) ; september utils
+(expense (payer jon) (splits pushkar shauvik said) (value 26)) ; august adjusted utils
