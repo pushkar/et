@@ -1817,3 +1817,20 @@
 
 ;; Renter's insurance
 (expense (payer shauvik) (value 137.0) (splits shauvik said pushkar))
+
+;; Georgia Natural Gas
+;; Usage 6/26-7/26
+(expense (payer shauvik) (value 48.47) (splits shauvik jon pushkar))
+;; Connection fee
+(expense (payer shauvik) (value 60) (splits shauvik said pushkar))
+;; Usage 7/26 - 8/27 (jon 13/31, said 18/31 days)
+(expense (payer shauvik) (value 34.38) (splits (shauvik 11.46) (said 6.65) (jon 4.81) (pushkar 11.46)))
+
+;; Jon's overpayment of $26
+(expense (payer jon) (value 26) (splits shauvik said pushkar))
+
+
+
+
+
+
