@@ -1833,4 +1833,4 @@
 ;; Usage 7/26 - 8/27 (jon 13/31, said 18/31 days)
 (expense (payer shauvik) (value 34.38) (splits (shauvik 11.46) (said 6.65) (jon 4.81) (pushkar 11.46)))
 
-
+;;;;;;; ET CLOSED ;; ENTER EXPENSE IN SPLITWISE ;;;;
